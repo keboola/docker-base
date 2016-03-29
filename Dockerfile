@@ -1,6 +1,6 @@
 FROM centos:centos7
 MAINTAINER Ondrej Hlavacek <ondrej.hlavacek@keboola.com>
-ENV APP_VERSION 1.4.1
+ENV APP_VERSION 1.4.2
 
 RUN yum -y update && \
 	yum -y install \
